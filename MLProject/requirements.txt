@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 sklearn
-mpl_toolkits
+mpl
 plotly
 seaborn
 warning
