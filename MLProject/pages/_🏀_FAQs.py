@@ -1,7 +1,9 @@
 import streamlit as st
 import os
 from PIL import Image
-image = Image.open("/MLProject/pages/nbapicture.jpg")
+path = os.path.dirname(__file__)
+my_file = path+'/nbapicture.jpg'
+image = Image.open(my_file)
 
 st.image(image)
 with st.expander("History of NBA"):
