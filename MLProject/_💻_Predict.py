@@ -59,7 +59,7 @@ html_temp1 = """
 	<br>
 	<br>
 	<div>
-	  <p style ="text-align:right;">Made by Saumya & Sumedh </p>
+	  <p style ="color:grey;text-align:right;">@ ACM_MPSTME </p>
 	</div>
 """
 st.markdown(html_temp1, unsafe_allow_html=True)
