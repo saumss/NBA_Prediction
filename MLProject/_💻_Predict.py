@@ -59,7 +59,7 @@ html_temp1 = """
 	<br>
 	<br>
 	<div>
-	  <p style ="color:grey;text-align:right;">@ ACM_MPSTME </p>
+	  <p style ="color:grey;text-align:right;">github/saumss/NBA_Prediction </p>
 	</div>
 """
 st.markdown(html_temp1, unsafe_allow_html=True)
