@@ -36,8 +36,8 @@ def main():
     """
     st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-    elo_i_pred = st.slider("Elo Prediction (Before):", 0.00, 1.00)
-    elo_n_pred = st.slider("Elo Prediction (After):", 0.00, 1.00)
+    elo_i_pred = st.slider("Elo Rating (Before):", 0.00, 1.00)
+    elo_n_pred = st.slider("Elo Rating (After):", 0.00, 1.00)
     forecast = st.slider("Forecast:", 0.00, 1.00)
     gameresult = ""
 
