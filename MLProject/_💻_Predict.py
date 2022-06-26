@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import time
+import sklearn
 
 # loading in the model to predict on the data
 pickle_model = open('MLProject/modelLogi.pkl', 'rb')
