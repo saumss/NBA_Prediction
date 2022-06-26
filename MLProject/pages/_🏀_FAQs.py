@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from PIL import Image
-image = Image.open('nbapicture.jpg')
+image = Image.open('https://github.com/saumss/NBA_Prediction/blob/main/MLProject/pages/nbapicture.jpg')
 
 st.image(image)
 with st.expander("History of NBA"):
