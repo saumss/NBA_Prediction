@@ -3,7 +3,7 @@ import streamlit as st
 import time
 
 # loading in the model to predict on the data
-pickle_model = open('/MLProject/modelLogi.pkl', 'rb')
+pickle_model = open('https://github.com/saumss/NBA_Prediction/blob/main/MLProject/modelLogi.pkl', 'rb')
 model = pickle.load(pickle_model)
 
 def welcome():
