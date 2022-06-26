@@ -58,6 +58,8 @@ html_temp1 = """
 	<br>
 	<br>
 	<br>
+	<div>
+	  <p style ="text-align:right;">Made by Saumya & Sumedh </p>
+	</div>
 """
 st.markdown(html_temp1, unsafe_allow_html=True)
-st.caption("Made by:")
