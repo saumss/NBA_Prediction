@@ -1,8 +1,7 @@
 import streamlit as st
 import os
 from PIL import Image
-dir_root = os.path.dirname(os.path.abspath(__file__))
-logo = Image.open(dir_root+'nbapicture.png')
+logo = Image.open('/MLProject/nbapicture.png')
 st.image(logo)
 with st.expander("History of NBA"):
     st.write("""
