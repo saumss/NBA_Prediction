@@ -2,7 +2,3 @@ numpy
 pandas
 matplotlib
 sklearn
-plotly
-seaborn
-warning
-statsmodels
