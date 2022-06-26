@@ -1,6 +1,9 @@
 import streamlit as st
 import os
-st.image('https://www.forbes.com/sites/kurtbadenhausen/2021/02/10/nba-team-values-2021-knicks-keep-top-spot-at-5-billion-warriors-bump-lakers-for-second-place/')
+from PIL import Image
+dir_root = os.path.dirname(os.path.abspath(__file__))
+logo = Image.open(dir_root+'nbapicture.png')
+st.image(logo)
 with st.expander("History of NBA"):
     st.write("""
         The National Basketball Association, or NBA, is a professional basketball league comprised of 30 teams across 
