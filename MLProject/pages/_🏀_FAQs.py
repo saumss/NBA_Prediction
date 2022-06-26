@@ -1,8 +1,7 @@
 import streamlit as st
 import os
 from PIL import Image
-logo = Image.open('/MLProject/nbapicture.png')
-st.image(logo)
+st.image('nbapicture.jpg')
 with st.expander("History of NBA"):
     st.write("""
         The National Basketball Association, or NBA, is a professional basketball league comprised of 30 teams across 
